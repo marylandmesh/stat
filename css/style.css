@@ -10,6 +10,31 @@ body {
 	background-image: url(../img/EEE.png);
 }
 
+/*
+========================================
+				FONTS
+========================================
+*/
+
+@font-face {
+	font-family: SourceSansProLight;
+	src: url('../font/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+	font-family: SourceSansProRegular;
+	src: url('../font/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+	font-family: Icons;
+	src: url('../font/icons.ttf');
+}
+
+@font-face {
+	font-family: Arvil;
+	src: url('../font/Arvil_Sans.ttf');
+}
 
 /*
 ========================================
