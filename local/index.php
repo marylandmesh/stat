@@ -16,8 +16,9 @@
                     </div>
                     <div class="stat"> <!--Meshlocals-->
 						<?php
-							$meshlocals=0;
-							foreach(glob("*", GLOB_ONLYDIR) as $derp)
+							$meshlocals = 0;
+							$locals = glob("*", GLOB_ONLYDIR);
+							foreach($locals as $local)
 								$meshlocals++;
 							echo $meshlocals;                               
                         ?>
@@ -46,11 +47,22 @@
                     <a href="/" class="ic" title="Home">a</a>
                 </div>
                 <div class="content">
-                	<?php
-						$meshlocals=0;
-						$y=scandir(".");
-						foreach($y as $z) if(is_dir($z)) $meshlocals++;
-					?>
+                	<table>
+                    	<th>Location</th>
+                        <th>x</th>
+                    	<?php
+							foreach ($locals as $local) {
+								echo "<tr>";
+									echo "<td>";
+									echo $local;
+									echo "</td>";
+									echo "<td>";
+									echo "x";
+									echo "</td>";
+								echo "</tr>";
+							}
+						?>
+                    </table>
                 </div>
             </div>
         </div>

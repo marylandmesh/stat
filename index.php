@@ -16,10 +16,11 @@
                     </div>
                     <div class="stat"> <!--Meshlocals.-->
                     	<?php
-							$meshlocals=0;
-							foreach(glob("local/*", GLOB_ONLYDIR) as $derp)
+							$meshlocals = 0;
+							$locals = glob("*", GLOB_ONLYDIR);
+							foreach($locals as $local)
 								$meshlocals++;
-							echo $meshlocals;                               
+							echo $meshlocals;                                
                         ?>
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
