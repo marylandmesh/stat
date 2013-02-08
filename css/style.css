@@ -173,6 +173,10 @@ tr:nth-child(odd) {
 	font-family: SourceSansProLight;
 }
 
+.content {
+	margin-top: 25px;
+}
+
 /*
 ========================================
 			BOX
