@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	background-image: url(../img/EEE.png);
+	background-image: url(../img/back.png);
 }
 
 /*
@@ -101,7 +101,7 @@ body {
 	color: #000;
 	text-decoration: none;
 	font-family: Icons;
-	background-image: url(../img/EEE.png);
+	background-image: url(../img/back.png);
 	display: inline-block;
 	padding: 20px;
 	border: 1px solid #CCC;
@@ -113,7 +113,7 @@ body {
 }
 
 .ic:hover {
-	background-image: url(../img/CCC.png);
+	background-image: url(../img/hover.png);
 }
 
 .button_wrap {
