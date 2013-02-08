@@ -15,7 +15,12 @@
                     	0
                     </div>
                     <div class="stat"> <!--Meshlocals-->
-                    	0
+                    	<?php
+						$meshlocals=0;
+						$y=scandir(".");
+						foreach($y as $z) if(is_dir($z)) $meshlocals++;
+						echo "$meshlocals";
+						?>
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
                         0
@@ -42,16 +47,9 @@
                 </div>
                 <div class="content">
                 	<?php
-						//OH YEAH PHP YEAH
-						$dirs=0;
-						$x=".";
-						$y=scandir($x);
-						foreach($y as $z){
-								if(is_dir($z)){
-										$dirs++;
-								}
-						}
-						echo "There are <b>$dirs</b> in directory $x";
+						$meshlocals=0;
+						$y=scandir(".");
+						foreach($y as $z) if(is_dir($z)) $meshlocals++;
 					?>
                 </div>
             </div>
