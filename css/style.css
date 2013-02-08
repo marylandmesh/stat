@@ -38,7 +38,31 @@ body {
 
 /*
 ========================================
-			STATS
+			KEYFRAMES
+========================================
+*/
+
+@-webkit-keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+@keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+/*
+========================================
+			MAIN
 ========================================
 */
 
@@ -96,6 +120,31 @@ body {
 	padding: 25px;
 	font-family: SourceSansProLight;
 }
+
+/*
+========================================
+			BOX
+========================================
+*/
+
+.box {
+	display: none;
+	opacity: 0;
+}
+
+.box:target {
+	display: block;
+	-webkit-animation: fade .5s linear;
+	-moz-animation: fade .5s linear;
+	animation: fade .5s linear;
+	opacity: 1;
+}
+
+/*
+========================================
+			BUTTONS
+========================================
+*/
 
 .ic, a.ic {
 	color: #000;

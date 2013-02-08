@@ -14,7 +14,7 @@
                     <div class="stat"> <!--Main Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--..something..-->
+                    <div class="stat"> <!--Meshlocals.-->
                     	0
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
@@ -30,7 +30,7 @@
                     Main Nodes
                 </div>
                 <div class="titles">
-                    ..something..
+                   	Meshlocals
                 </div>
                 <div class="titles">
                     Recently Down Nodes
@@ -45,7 +45,18 @@
                     <a href="#map" class="ic">f</a>
                 </div>
                 <div class="content">
-                	content here
+                	<div id="submit" class="box">
+                    	submit
+                    </div>
+                    <div id="contact" class="box">
+                    	contact
+                    </div>
+                    <div id="chart" class="box">
+                    	chart
+                    </div>
+                    <div id="map" class="box">
+                    	map
+                    </div>
                 </div>
             </div>
         </div>
