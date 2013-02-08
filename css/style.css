@@ -165,7 +165,7 @@ body {
 	background-image: url(../img/hover.png);
 }
 
-a[title]:hover:after {
+.ic[title]:hover:after {
 	content: attr(title);
 	padding: 4px 8px;
 	color: #333;
