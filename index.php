@@ -38,11 +38,11 @@
             </div>
             <div class="paper_wrap">
             	<div class="button_wrap">
-                    <a href="/local/" class="ic" title="Meshlocals"><span title=" ">b</span></a>
-                    <a href="#submit" class="ic" title="Submit"><span title=" ">c</span></a>
-                    <a href="#contact" class="ic" title="Contact"><span title=" ">d</span></a>
-					<a href="#chart" class="ic" title="Chart"><span title=" ">e</span></a>
-                    <a href="#map" class="ic" title="Map"><span title=" ">f</span></a>
+                    <a href="/local/" class="ic" title="Meshlocals" alt="">b</a>
+                    <a href="#submit" class="ic" title="Submit" alt="">c</a>
+                    <a href="#contact" class="ic" title="Contact" alt="">d</a>
+					<a href="#chart" class="ic" title="Chart" alt="">e</a>
+                    <a href="#map" class="ic" title="Map" alt="">f</a>
                 </div>
                 <div class="content">
                 	<div id="submit" class="box">
