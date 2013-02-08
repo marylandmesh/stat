@@ -43,7 +43,7 @@
                 <div class="content">
                 	<?php
 						//OH YEAH PHP YEAH
-						$scan = scandir('/local/');
+						$scan = scandir('');
 						echo $scan;
 						
 					?>
