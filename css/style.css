@@ -166,36 +166,27 @@ body {
 	background-image: url(../img/hover.png);
 }
 
-.ic[title]:before, .ic[title]:after {
-    display: none;
-    opacity: 0;
-}
-
 .ic[title]:hover:before, .ic[title]:hover:after {
     display: block;
     position: absolute;
-   -webkit-animation: fade .5s linear;
-	-moz-animation: fade .5s linear;
-	animation: fade .5s linear;
-	opacity: 1;
+	white-space: nowrap;
+	color: #FFF;
+	font-family: SourceSansProLight;
+	font-size: 12px;
 }
 
 .ic[title]:hover:before {
-	padding: .5em;
+	padding: 5px;
 	content: attr(title);
 	min-width: 120px;
 	text-align: center;
 	width: auto;
 	height: auto;
-	white-space: nowrap;
 	top: -35px;
 	background: rgba(0,0,0,.8);
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;    
-	color: #FFF;
-	font-family: SourceSansProLight;
-	font-size: 12px;
 	left: 0;
 }
 
@@ -206,7 +197,6 @@ body {
 	border-width: 10px;
 	height:0;
 	width:0;
-	position:absolute;
 	top: -8px;
 }
 
