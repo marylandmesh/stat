@@ -44,7 +44,7 @@
                 	<?php
 						//OH YEAH PHP YEAH
 						$scan = scandir('');
-						echo $scan;
+						echo '$scan';
 						
 					?>
                 </div>
