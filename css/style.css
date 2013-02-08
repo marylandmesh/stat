@@ -166,6 +166,7 @@ body {
 	background-image: url(../img/hover.png);
 }
 
+/*
 .ic[title]:hover:after {
 	content: attr(title);
 	position: absolute;
@@ -173,6 +174,41 @@ body {
 	top: 100%;
 	white-space: nowrap;
 	z-index: 20px;
+	font-family: SourceSansProLight;
+	font-size: 12px;
+}
+*/
+
+.ic[title]:hover:before {
+  display: block;
+  position: absolute; 
+  padding: .5em;
+  content: attr(title);
+  min-width: 120px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  top: -32px;
+  background: rgba(0,0,0,.8);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;    
+  color: #fff;
+  font-size: .86em;
+}
+
+.ic[title]:hover:after {
+  position: absolute;
+  display: block;
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  top: -8px;
+  left:1em;
 }
 
 .button_wrap {
