@@ -17,7 +17,7 @@
                     <div class="stat"> <!--Meshlocals.-->
                     	<?php
 							$meshlocals = 0;
-							$locals = glob("*", GLOB_ONLYDIR);
+							$locals = glob("local/*", GLOB_ONLYDIR);
 							foreach($locals as $local)
 								$meshlocals++;
 							echo $meshlocals;                                
