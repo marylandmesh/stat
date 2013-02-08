@@ -15,12 +15,12 @@
                     	0
                     </div>
                     <div class="stat"> <!--Meshlocals-->
-                    	<?php
-						$meshlocals=-2;
-						$y=scandir(".");
-						foreach($y as $z) if(is_dir($z)) $meshlocals++;
-						echo "$meshlocals";
-						?>
+						<?php
+							$meshlocals=0;
+							foreach(glob("*", GLOB_ONLYDIR) as $derp)
+								$meshlocals++;
+							echo $meshlocals;                               
+                        ?>
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
                         0
