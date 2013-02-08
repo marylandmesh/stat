@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
     <head>
-    	<title>Maryland Meshnet Statistics</title>
+    	<title>Hyperboria Statistics</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
