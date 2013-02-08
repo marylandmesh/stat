@@ -41,7 +41,12 @@
                     <a href="/" class="ic" title="Home">a</a>
                 </div>
                 <div class="content">
-                	Display all meshlocals here.
+                	<?php
+						//OH YEAH PHP YEAH
+						
+						
+						
+					?>
                 </div>
             </div>
         </div>
