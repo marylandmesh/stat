@@ -43,9 +43,15 @@
                 <div class="content">
                 	<?php
 						//OH YEAH PHP YEAH
-						$scan = scandir('');
-						echo '$scan';
-						
+						$dirs=0;
+						$x=".";
+						$y=scandir($x);
+						foreach($y as $z){
+								if(is_dir($z)){
+										$dirs++;
+								}
+						}
+						echo "There are <b>$dirs</b> in directory $x";
 					?>
                 </div>
             </div>
