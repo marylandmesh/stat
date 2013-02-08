@@ -8,32 +8,32 @@
     	<div class="paper">
         	<div class="nums">
             	<div class="numbers">
-                    <div class="stat"> <!--Active Maryland Nodes-->
+                    <div class="stat"> <!--Active Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--Inactive Maryland Nodes-->
+                    <div class="stat"> <!--Main Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--Total Active Nodes-->
+                    <div class="stat"> <!--..something..-->
                     	0
                     </div>
-                    <div class="stat"> <!--Total Inactive Nodes-->
+                    <div class="stat"> <!--Recently Down Nodes-->
                         0
                     </div>
                 </div>
             </div>
             <div class="names">
                 <div class="titles">
-                    Active Maryland Nodes
+                    Active Nodes
                 </div>
                 <div class="titles">
-                    Inactive Maryland Nodes
+                    Main Nodes
                 </div>
                 <div class="titles">
-                    Total Active Nodes
+                    ..something..
                 </div>
                 <div class="titles">
-                    Total Inactive Nodes
+                    Recently Down Nodes
                 </div>
             </div>
             <div class="paper_wrap">
