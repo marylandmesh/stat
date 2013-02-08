@@ -176,7 +176,7 @@ body {
 }
 
 .ic[title]:hover:before {
-	padding: 5px;
+	padding: 6px;
 	content: attr(title);
 	min-width: 120px;
 	text-align: center;
