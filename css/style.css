@@ -166,22 +166,21 @@ body {
 	background-image: url(../img/hover.png);
 }
 
-/*
-.ic[title]:hover:after {
-	content: attr(title);
-	position: absolute;
-	left: 0;
-	top: 100%;
-	white-space: nowrap;
-	z-index: 20px;
-	font-family: SourceSansProLight;
-	font-size: 12px;
+.ic[title]:before, .ic[title]:after {
+    display: none;
+    opacity: 0;
 }
-*/
+
+.ic[title]:hover:before, .ic[title]:hover:after {
+    display: block;
+    position: absolute;
+   -webkit-animation: fade .5s linear;
+	-moz-animation: fade .5s linear;
+	animation: fade .5s linear;
+	opacity: 1;
+}
 
 .ic[title]:hover:before {
-	display: block;
-	position: absolute; 
 	padding: .5em;
 	content: attr(title);
 	min-width: 120px;
@@ -201,8 +200,6 @@ body {
 }
 
 .ic[title]:hover:after {
-	position: absolute;
-	display: block;
 	content: "";
 	border-color: rgba(0,0,0,.8) transparent transparent transparent;
 	border-style: solid;
