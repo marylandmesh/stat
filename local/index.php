@@ -2,7 +2,7 @@
 <html>
     <head>
     	<title>Hyperboria Statistics</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
     	<div class="paper">
@@ -14,7 +14,7 @@
                     <div class="stat"> <!--Main Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--..something..-->
+                    <div class="stat"> <!--Meshlocals-->
                     	0
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
@@ -30,7 +30,7 @@
                     Main Nodes
                 </div>
                 <div class="titles">
-                    ..something..
+                    Meshlocals
                 </div>
                 <div class="titles">
                     Recently Down Nodes
@@ -41,7 +41,8 @@
                     <a href="#graph" class="ic">a</a>
                     <a href="#chart" class="ic">b</a>
                     <a href="#map" class="ic">d</a>
-					<a href="#table" class="ic">e</a>
+                    <a href="#table" class="ic">e</a>
+                    <a href="#contact" class="ic">f</a>
                 </div>
                 <div class="content">
                 	content here
