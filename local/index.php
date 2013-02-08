@@ -16,7 +16,7 @@
                     </div>
                     <div class="stat"> <!--Meshlocals-->
                     	<?php
-						$meshlocals=0;
+						$meshlocals=-2;
 						$y=scandir(".");
 						foreach($y as $z) if(is_dir($z)) $meshlocals++;
 						echo "$meshlocals";
