@@ -12,6 +12,58 @@ body {
 
 /*
 ========================================
+				TABLE
+========================================
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #EEE;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 10px;
+}
+
+th:first-child {
+    border-left: 1px solid #CCC;  
+}
+
+th:last-child {
+    border-right: 1px solid #CCC;  
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td:first-child {
+    border-left: 1px solid #CCC;  
+}
+
+td:last-child {
+    border-right: 1px solid #CCC;  
+}
+
+
+tr {
+    border-bottom: 1px solid #CCC;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+
+/*
+========================================
 				FONTS
 ========================================
 */
