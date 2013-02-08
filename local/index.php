@@ -49,15 +49,27 @@
                 <div class="content">
                 	<table>
                     	<th>Location</th>
-                        <th>x</th>
+                        <th>Active Nodes</th>
+                        <th>Main Nodes</th>
+                        <th>Recently Down Nodes</th>
                     	<?php
 							foreach ($locals as $local) {
 								echo "<tr>";
+									//location
 									echo "<td>";
 									echo $local;
 									echo "</td>";
+									//active nodes
 									echo "<td>";
-									echo "x";
+									echo "active";
+									echo "</td>";
+									//main nodes
+									echo "<td>";
+									echo "mainnode";
+									echo "</td>";
+									//down nodes
+									echo "<td>";
+									echo "downnode";
 									echo "</td>";
 								echo "</tr>";
 							}
