@@ -17,6 +17,9 @@
                     <div class="stat"> <!--Dedicated Nodes-->
                     	0
                     </div>
+                    <div class="stat"> <!--Connections-->
+                        0
+                    </div>
                     <div class="stat"> <!--Meshlocals-->
 						<?php
 							$meshlocals = 0;
@@ -25,9 +28,6 @@
 								$meshlocals++;
 							echo $meshlocals;                               
                         ?>
-                    </div>
-                    <div class="stat"> <!--Recently Down Nodes-->
-                        0
                     </div>
                 </div>
             </div>
@@ -39,10 +39,10 @@
                     Dedicated Nodes
                 </div>
                 <div class="titles">
-                    Meshlocals
+                    Connections
                 </div>
                 <div class="titles">
-                    Recently Down Nodes
+                    Meshlocals
                 </div>
             </div>
             <div class="paper_wrap">
@@ -55,7 +55,7 @@
                     	<th>Location</th>
                         <th>Active Nodes</th>
                         <th>Dedicated Nodes</th>
-                        <th>Recently Down Nodes</th>
+                        <th>Connections</th>
                         </thead>
                         <tbody>
                     	<?php
@@ -67,15 +67,15 @@
 									echo "</td>";
 									//active nodes
 									echo "<td>";
-									echo "active";
+									echo "0";
 									echo "</td>";
 									//main nodes
 									echo "<td>";
-									echo "mainnode";
+									echo "0";
 									echo "</td>";
-									//down nodes
+									//connections
 									echo "<td>";
-									echo "downnode";
+									echo "0";
 									echo "</td>";
 								echo "</tr>";
 							}
