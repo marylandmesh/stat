@@ -11,7 +11,7 @@
                     <div class="stat"> <!--Active Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--Main Nodes-->
+                    <div class="stat"> <!--Dedicated Nodes-->
                     	0
                     </div>
                     <div class="stat"> <!--Meshlocals-->
@@ -33,7 +33,7 @@
                     Active Nodes
                 </div>
                 <div class="titles">
-                    Main Nodes
+                    Dedicated Nodes
                 </div>
                 <div class="titles">
                     Meshlocals
@@ -50,7 +50,7 @@
                 	<table>
                     	<th>Location</th>
                         <th>Active Nodes</th>
-                        <th>Main Nodes</th>
+                        <th>Dedicated Nodes</th>
                         <th>Recently Down Nodes</th>
                     	<?php
 							foreach ($locals as $local) {

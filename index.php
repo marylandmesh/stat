@@ -11,7 +11,7 @@
                     <div class="stat"> <!--Active Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--Main Nodes-->
+                    <div class="stat"> <!--Dedicated Nodes-->
                     	0
                     </div>
                     <div class="stat"> <!--Meshlocals.-->
@@ -33,7 +33,7 @@
                     Active Nodes
                 </div>
                 <div class="titles">
-                    Main Nodes
+                    Dedicated Nodes
                 </div>
                 <div class="titles">
                    	Meshlocals

@@ -11,7 +11,7 @@
                     <div class="stat"> <!--Active Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--Main Nodes-->
+                    <div class="stat"> <!--Dedicated Nodes-->
                     	0
                     </div>
                     <div class="stat"> <!--....-->
@@ -27,7 +27,7 @@
                     Active Nodes
                 </div>
                 <div class="titles">
-                    Main Nodes
+                    Dedicated Nodes
                 </div>
                 <div class="titles">
                     ....
@@ -60,7 +60,29 @@
                     	about
                     </div>
                     <div id="nodes" class="box">
-                    	nodes
+                    	<table>
+                        <th>IPv6</th> <!--"X" if N/A-->
+                        <th>IPv4</th> <!--"X" if N/A-->
+                        <th>Domain</th> <!--"X" if N/A-->
+                        <th>Status</th> <!--Active/Inactive-->
+                        <th>Type</th> <!--Node/Dedicated Node-->
+                        <th></th>
+                        <tr>
+                        	<td>fc49:8be3:42b7:4f0c:4e68:563f:dac6:e259</td>
+                            <td>173.61.79.101</td>
+                            <td>lukevers.com</td>
+                            <td>Active</td>
+                            <td>Dedicated Node</td>
+                        </tr>
+                        <tr>
+                        	<td>fcb8:6c35:5c90:243e:686e:f944:5cc8:1d99</td>
+                            <td>198.74.60.106</td>
+                            <td>machupovir.us</td>
+                            <td>Active</td>
+                            <td>Dedicated Node</td>
+                        </tr>
+                    	</table>
+
                     </div>
                 </div>
             </div>
