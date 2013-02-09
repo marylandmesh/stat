@@ -51,10 +51,13 @@
                 </div>
                 <div class="content">
                 	<table id="table" class="tablesorter">
+                    	<thead>
                     	<th>Location</th>
                         <th>Active Nodes</th>
                         <th>Dedicated Nodes</th>
                         <th>Recently Down Nodes</th>
+                        </thead>
+                        <tbody>
                     	<?php
 							foreach ($locals as $local) {
 								echo "<tr onClick=\"document.location.href='".$local."'\">";
@@ -77,6 +80,7 @@
 								echo "</tr>";
 							}
 						?>
+                        </tbody>
                     </table>
                 </div>
             </div>
