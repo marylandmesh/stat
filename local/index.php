@@ -3,6 +3,9 @@
     <head>
     	<title>Hyperboria Statistics</title>
         <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="/js/jquery.js"></script> 
+		<script type="text/javascript" src="/js/sort.js"></script> 
+        <script type="text/javascript" src="/js/table.js"></script> 
     </head>
     <body>
     	<div class="paper">
@@ -47,7 +50,7 @@
                     <a href="/" class="ic" title="Home">a</a>
                 </div>
                 <div class="content">
-                	<table>
+                	<table id="table" class="tablesorter">
                     	<th>Location</th>
                         <th>Active Nodes</th>
                         <th>Dedicated Nodes</th>
