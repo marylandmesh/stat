@@ -44,11 +44,6 @@ td {
 
 tr:hover {
     background-image: url(../img/hover.png);
-	-webkit-transition: background-image .5s ease;
-	-moz-transition: background-image .5s ease;
-	-o-transition: background-image .5s ease;
-	-ms-transition: background-image .5s ease;
-	transition: background-image .5s ease;
 }
 
 td:first-child {
