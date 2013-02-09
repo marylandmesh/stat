@@ -22,7 +22,7 @@ table {
 }
 
 th {
-    background-color: #EEE;
+    background-image: url(../img/back.png);
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
     padding: 10px;
@@ -39,6 +39,11 @@ th:last-child {
 td {
     padding: 10px;
     text-align: center;
+}
+
+tr:hover {
+    background-image: url(../img/hover.png);
+
 }
 
 td:first-child {
