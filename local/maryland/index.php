@@ -48,8 +48,8 @@
                     <div id="contact" class="box">
                     	contact
                     </div>
-                    <div id="chart" class="box">
-                    	chart
+                    <div id="graph" class="box">
+                    	graph
                     </div>
                     <div id="map" class="box">
                     	map
