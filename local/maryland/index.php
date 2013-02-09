@@ -63,7 +63,7 @@
                     	about
                     </div>
                     <div id="nodes" class="box">
-                    	<table>
+                    	<table id="table" class="tablesorter">
                         <thead>
                         <th>IPv6</th> <!--"X" if N/A-->
                         <th>Domain</th> <!--"X" if N/A-->
