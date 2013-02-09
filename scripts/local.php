@@ -1,6 +1,7 @@
 <?
 	if (!is_dir('../local/'.$_GET["mesh"])) {
-		header("Status: 404 Not Found");
+		include('../error/status-404.html');
+		exit;
 	}
 ?>
 
