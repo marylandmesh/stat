@@ -40,8 +40,10 @@
             	<div class="button_wrap">
                     <a href="/" class="ic" title="Home">a</a>
                     <a href=".." class="ic" title="Meshlocals">b</a>
+                    <a href="#about" class="ic" title="About">i</a>
                     <a href="#contact" class="ic" title="Contact">d</a>
                     <a href="#chart" class="ic" title="Chart">e</a>
+                    <a href="#main-nodes" class="ic" title="Main Nodes">g</a>
                     <a href="#map" class="ic" title="Map">f</a>
                 </div>
                 <div class="content">
