@@ -65,7 +65,6 @@
                         <th>Domain</th> <!--"X" if N/A-->
                         <th>Status</th> <!--Active/Inactive-->
                         <th>Type</th> <!--Node/Dedicated Node-->
-                        <th></th>
                         <tr>
                         	<td>fc49:8be3:42b7:4f0c:4e68:563f:dac6:e259</td>
                             <td>lukevers.com</td>
