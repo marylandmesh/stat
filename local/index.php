@@ -54,6 +54,7 @@
                         <th>Recently Down Nodes</th>
                     	<?php
 							foreach ($locals as $local) {
+								echo "<a href=\"".$local."\">";
 								echo "<tr>";
 									//location
 									echo "<td>";
@@ -72,6 +73,7 @@
 									echo "downnode";
 									echo "</td>";
 								echo "</tr>";
+								echo "</a>";
 							}
 						?>
                     </table>
