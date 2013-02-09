@@ -45,7 +45,15 @@
                     <a href="#map" class="ic" title="Map">f</a>
                 </div>
                 <div class="content">
-                	
+                    <div id="contact" class="box">
+                    	contact
+                    </div>
+                    <div id="chart" class="box">
+                    	chart
+                    </div>
+                    <div id="map" class="box">
+                    	map
+                    </div>
                 </div>
             </div>
         </div>
