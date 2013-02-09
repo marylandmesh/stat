@@ -56,6 +56,12 @@
                     <div id="map" class="box">
                     	map
                     </div>
+                    <div id="about" class="box">
+                    	about
+                    </div>
+                    <div id="main-nodes" class="box">
+                    	main nodes
+                    </div>
                 </div>
             </div>
         </div>
