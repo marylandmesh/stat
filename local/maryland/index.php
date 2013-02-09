@@ -3,6 +3,9 @@
     <head>
     	<title>Hyperboria Statistics</title>
         <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="/js/jquery.js"></script> 
+		<script type="text/javascript" src="/js/sort.js"></script> 
+        <script type="text/javascript" src="/js/table.js"></script> 
     </head>
     <body>
     	<div class="paper">
@@ -61,10 +64,13 @@
                     </div>
                     <div id="nodes" class="box">
                     	<table>
+                        <thead>
                         <th>IPv6</th> <!--"X" if N/A-->
                         <th>Domain</th> <!--"X" if N/A-->
                         <th>Status</th> <!--Active/Inactive-->
                         <th>Connections</th> <!--Node/Dedicated Node-->
+                        </thead>
+                        <tbody>
                         <?php
 							//get shit
 							//for loooop, probably for each
@@ -87,6 +93,7 @@
 									echo "</td>";
 								echo "</tr>";
 						?>
+                        </tbody>
                     	</table>
 
                     </div>
