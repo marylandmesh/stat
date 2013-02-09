@@ -42,7 +42,7 @@
             <div class="paper_wrap">
             	<div class="button_wrap">
                     <a href="/" class="ic" title="Home">a</a>
-                    <a href=".." class="ic" title="Meshlocals">b</a>
+                    <a href="/local/" class="ic" title="Meshlocals">b</a>
                     <a href="#about" class="ic" title="About">i</a>
                     <a href="#contact" class="ic" title="Contact">d</a>
                     <a href="#chart" class="ic" title="Chart">e</a>
