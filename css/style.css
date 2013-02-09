@@ -276,3 +276,23 @@ tr:nth-child(odd) {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+/*
+========================================
+			ERROR PAGES
+========================================
+*/
+
+.error {
+	margin-top: 15%;
+	text-align: center;
+	font-family:Arvil;
+	font-size: 64px;
+	color: #333;
+	text-shadow: 1px 1px #FFF;
+}
+
+.normaltxt {
+	font-family: SourceSansProRegular;
+	font-size: 32px;
+}
