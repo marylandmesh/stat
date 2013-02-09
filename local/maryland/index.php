@@ -17,7 +17,7 @@
                     <div class="stat"> <!--Dedicated Nodes-->
                     	0
                     </div>
-                    <div class="stat"> <!--....-->
+                    <div class="stat"> <!--Connections-->
 						0
                     </div>
                     <div class="stat"> <!--Recently Down Nodes-->
@@ -33,7 +33,7 @@
                     Dedicated Nodes
                 </div>
                 <div class="titles">
-                    ....
+                    Connections
                 </div>
                 <div class="titles">
                     Recently Down Nodes
