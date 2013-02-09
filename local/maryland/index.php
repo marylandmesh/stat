@@ -43,7 +43,7 @@
                     <a href="#about" class="ic" title="About">i</a>
                     <a href="#contact" class="ic" title="Contact">d</a>
                     <a href="#chart" class="ic" title="Chart">e</a>
-                    <a href="#main-nodes" class="ic" title="Main Nodes">g</a>
+                    <a href="#nodes" class="ic" title="Nodes">g</a>
                     <a href="#map" class="ic" title="Map">f</a>
                 </div>
                 <div class="content">
@@ -59,8 +59,8 @@
                     <div id="about" class="box">
                     	about
                     </div>
-                    <div id="main-nodes" class="box">
-                    	main nodes
+                    <div id="nodes" class="box">
+                    	nodes
                     </div>
                 </div>
             </div>
