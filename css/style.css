@@ -26,6 +26,7 @@ th {
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
     padding: 10px;
+	font-family: SourceSansProRegular;
 }
 
 th:first-child {
