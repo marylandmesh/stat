@@ -1,3 +1,9 @@
+<?
+	if (!is_dir('../local/'.$_GET["mesh"])) {
+		header("Status: 404 Not Found");
+	}
+?>
+
 <!DOCTYPE>
 <html>
     <head>
@@ -72,26 +78,26 @@
                         </thead>
                         <tbody>
                         <?php
-							//get shit
-							//for loooop, probably for each
-								echo "<tr>";
-									//ipv6
-									echo "<td>";
-									echo "";
-									echo "</td>";
-									//domain
-									echo "<td>";
-									echo "";
-									echo "</td>";
-									//status
-									echo "<td>";
-									echo "";
-									echo "</td>";
-									//connections
-									echo "<td>";
-									echo "";
-									echo "</td>";
-								echo "</tr>";
+						//get shit
+						//for loooop, probably for each
+							echo "<tr>";
+								//ipv6
+								echo "<td>";
+								echo "";
+								echo "</td>";
+								//domain
+								echo "<td>";
+								echo "";
+								echo "</td>";
+								//status
+								echo "<td>";
+								echo "";
+								echo "</td>";
+								//connections
+								echo "<td>";
+								echo "";
+								echo "</td>";
+							echo "</tr>";
 						?>
                         </tbody>
                     	</table>
