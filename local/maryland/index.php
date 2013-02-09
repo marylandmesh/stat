@@ -41,15 +41,15 @@
                     <a href="/" class="ic" title="Home">a</a>
                     <a href=".." class="ic" title="Meshlocals">b</a>
                     <a href="#contact" class="ic" title="Contact">d</a>
-                    <a href="#graph" class="ic" title="Graph">e</a>
+                    <a href="#chart" class="ic" title="Chart">e</a>
                     <a href="#map" class="ic" title="Map">f</a>
                 </div>
                 <div class="content">
                     <div id="contact" class="box">
                     	contact
                     </div>
-                    <div id="graph" class="box">
-                    	graph
+                    <div id="chart" class="box">
+                    	chart
                     </div>
                     <div id="map" class="box">
                     	map
