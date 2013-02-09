@@ -56,6 +56,7 @@
                         <th>Active Nodes</th>
                         <th>Dedicated Nodes</th>
                         <th>Connections</th>
+                        <th>Recently Down Nodes</th>
                         </thead>
                         <tbody>
                     	<?php
@@ -74,6 +75,10 @@
 									echo "0";
 									echo "</td>";
 									//connections
+									echo "<td>";
+									echo "0";
+									echo "</td>";
+									//recently down nodes
 									echo "<td>";
 									echo "0";
 									echo "</td>";
