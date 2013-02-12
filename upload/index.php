@@ -48,7 +48,12 @@
                     <a href="/local/" class="ic" title="Meshlocals">b</a>
                 </div>
                 <div class="content">
-                    content
+					<form id="upload" method="post" action="/scripts/upload.php">
+                    	<input type="text" placeholder="Meshlocal ID" class="upload" name="id"/>
+                        <input type="text" placeholder="Password" class="upload" name="password"/>
+                        <textarea class="upload" placeholder="JSON data"/>
+                        <input type="submit" class="autho"/>
+                    </form>
                 </div>
             </div>
         </div>
