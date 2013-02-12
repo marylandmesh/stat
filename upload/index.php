@@ -44,7 +44,7 @@
             </div>
             <div class="paper_wrap">
             	<div class="button_wrap">
-                	<a href="/" class="ic" title="Home">b</a>
+                	<a href="/" class="ic" title="Home">a</a>
                     <a href="/local/" class="ic" title="Meshlocals">b</a>
                 </div>
                 <div class="content">
