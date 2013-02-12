@@ -3,6 +3,8 @@
     <head>
     	<title>Hyperboria Statistics</title>
         <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="/js/hmac-sha256.js"></script>
+        <script type="text/javascript" src="/js/upload.js"></script>
     </head>
     <body>
     	<div class="paper">
@@ -48,7 +50,7 @@
                     <a href="/local/" class="ic" title="Meshlocals">b</a>
                 </div>
                 <div class="content">
-					<form id="upload" method="post" action="/scripts/upload.php">
+					<form id="upload" method="post" action="/scripts/upload.php" onSubmit="encrypt()">
                     	<input type="text" placeholder="Meshlocal ID" class="upload" name="id"/>
                         <input type="password" placeholder="Password" class="upload" name="password"/>
                         <textarea class="upload" placeholder="JSON data"></textarea>
