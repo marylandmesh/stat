@@ -46,6 +46,7 @@
             	<div class="button_wrap">
                 	<a href="/" class="ic" title="Home">a</a>
                     <a href="/local/" class="ic" title="Meshlocals">b</a>
+                    <a href="/upload/" class="ic" title="Upload">c</a>
                     <a href="#help" class="ic" title="Help">j</a>
                 </div>
                 <div class="content">
