@@ -20,7 +20,7 @@
                     <div class="stat"> <!--Meshlocals.-->
                     	<?php
 							$meshlocals = 0;
-							$locals = glob("local/*", GLOB_ONLYDIR);
+							$locals = glob("../local/*", GLOB_ONLYDIR);
 							foreach($locals as $local)
 								$meshlocals++;
 							echo $meshlocals;                                
@@ -44,23 +44,11 @@
             </div>
             <div class="paper_wrap">
             	<div class="button_wrap">
+                	<a href="/" class="ic" title="Home">b</a>
                     <a href="/local/" class="ic" title="Meshlocals">b</a>
-                    <a href="/upload/" class="ic" title="Upload">c</a>
-                    <a href="#contact" class="ic" title="Contact">d</a>
-					<a href="#chart" class="ic" title="Chart">e</a>
-                    <a href="#map" class="ic" title="Map">f</a>
                 </div>
                 <div class="content">
-                    </div>
-                    <div id="contact" class="box">
-                    	contact
-                    </div>
-                    <div id="chart" class="box">
-                    	chart
-                    </div>
-                    <div id="map" class="box">
-                    	map
-                    </div>
+                    content
                 </div>
             </div>
         </div>
