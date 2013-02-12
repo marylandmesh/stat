@@ -54,7 +54,7 @@
                     	<input type="text" placeholder="Meshlocal ID" class="upload" name="id"/>
                         <input type="password" placeholder="Password" class="upload" name="password"/>
                         <textarea class="upload" placeholder="JSON data"></textarea>
-                        <input type="submit" class="autho"/>
+                        <input type="submit" class="upload"/>
                     </form>
                 </div>
             </div>

@@ -4,6 +4,9 @@
 //  client side, and the password is to
 //  be sent encrypted when it's sent to
 //  the server, before it is submitted.
+//
+//  For more information:
+//  http://code.google.com/p/crypto-js/
 // 
 // -------------------------------------
 function encrypt() {
