@@ -50,7 +50,7 @@
                 <div class="content">
 					<form id="upload" method="post" action="/scripts/upload.php">
                     	<input type="text" placeholder="Meshlocal ID" class="upload" name="id"/>
-                        <input type="text" placeholder="Password" class="upload" name="password"/>
+                        <input type="password" placeholder="Password" class="upload" name="password"/>
                         <textarea class="upload" placeholder="JSON data"></textarea>
                         <input type="submit" class="autho"/>
                     </form>
