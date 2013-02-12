@@ -49,9 +49,9 @@
                     <a href="#contact" class="ic" title="Contact">d</a>
 					<a href="#chart" class="ic" title="Chart">e</a>
                     <a href="#map" class="ic" title="Map">f</a>
+                    <a href="#help" class="ic" title="Help">j</a>
                 </div>
                 <div class="content">
-                    </div>
                     <div id="contact" class="box">
                     	contact
                     </div>
@@ -60,6 +60,9 @@
                     </div>
                     <div id="map" class="box">
                     	map
+                    </div>
+                    <div id="help" class="box">
+                    	help
                     </div>
                 </div>
             </div>
