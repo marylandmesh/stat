@@ -58,7 +58,7 @@
 					<form id="upload" method="post" action="/scripts/upload.php" onSubmit="encrypt()">
                     	<input type="text" placeholder="Meshlocal ID" class="upload" name="id"/>
                         <input type="password" placeholder="Password" class="upload" name="password"/>
-                        <textarea class="upload" placeholder="JSON data"></textarea>
+                        <textarea class="upload" placeholder="JSON data" name="json"></textarea>
                         <input type="submit" class="upload"/>
                     </form>
                 </div>
